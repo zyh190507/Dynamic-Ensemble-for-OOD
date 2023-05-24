@@ -1,0 +1,1 @@
+1. 模仿 adb 那篇论文的处理方法，详见 output_clinc_full_as_the_adb.py 

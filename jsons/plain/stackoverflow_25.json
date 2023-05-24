@@ -1,0 +1,19 @@
+{
+  "data": "stackoverflow",
+  "known_ratio": 0.25,
+  "model_name_or_path": "bert-base-uncased",
+  "seed": 42,
+  "output_dir": "./model_output/",
+  "do_train": true,
+  "do_eval": true,
+  "do_predict": true,
+  "scale": 1.5,
+  "loss_type": "original",
+  "per_device_train_batch_size": 32,
+  "per_device_eval_batch_size": 32,
+  "supcont_pre_epoches": 50,
+  "learning_rate": 0.00001,
+  "weight_decay": 0.0001,
+  "adam_beta1": 0.9,
+  "adam_beta2": 0.98
+}

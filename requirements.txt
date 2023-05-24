@@ -1,0 +1,9 @@
+datasets==1.18.3
+fitlog==0.9.13
+pandas==1.1.5
+scikit-learn==1.0.2
+# torch==1.12.1+cu116
+tqdm==4.62.3
+transformers==4.4.1
+rich==12.6.0
+PyYAML==5.4.1
