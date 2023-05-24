@@ -3,13 +3,15 @@
 `conda create --name python=3.7`
 
 ### Install all required libraries:
-`pip install -r requirements.txt` 注意 torch 需要手动安装
+`pip install -r requirements.txt`
 
 
 ### Run:
-1. 数据在 data 文件夹下，注意 clinc 数据集是由原始数据集处理得到的，处理方法详见 data/clinc/readme.md
-2. 训练使用示例，注意 `do_train` 要置为 `True`
+1.The data is located in the "data" folder. Please note that the Clinc dataset is derived from the original dataset and the processing method is described in detail in the "data/clinc/readme.md" file.
+2. Run the experiments (for example banking_25)，
+   Tip: set `do_train` as `True`
     ```
    python run_main.py json/plain/banking_25_52.json
    ```
-3. 结果（包括训练完的 pt 模型）都放在了 model_output 里面。处理结果（平均数、方差等）可以使用 analyze_different_scores.py
+3. The results, including the trained PT model, are stored in the "model_output" directory. To process the results, such as calculating averages, variances, etc., you can use the "analyze_different_scores.py" script.
+
