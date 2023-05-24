@@ -9,7 +9,7 @@
 ## Run:
 #### The data is located in the "data" folder. Please note that the Clinc dataset is derived from the original dataset and the processing method is described in detail in the "data/clinc/readme.md" file.
 
-#### Run the experiments (for example banking_25) Tip: set `do_train` as `True`
+#### Run the experiments (for example banking_25) ##### Tip: set `do_train` as `True`
    ```
    python run_main.py json/plain/banking_25_52.json
    ```
